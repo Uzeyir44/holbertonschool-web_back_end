@@ -4,7 +4,7 @@ This module contains sum_list function
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     This function that returns the sum of floats
 
