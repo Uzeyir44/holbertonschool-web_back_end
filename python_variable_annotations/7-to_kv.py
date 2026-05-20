@@ -2,10 +2,10 @@
 """
 This module contains to_kv function
 """
-from typing import Union
+from typing import Tuple, Union
 
 
-def to_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     This function that returns the tuple with given variables
 
