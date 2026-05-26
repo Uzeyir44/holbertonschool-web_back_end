@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 three modules , namely asyncio, time, and random were imported
 """
