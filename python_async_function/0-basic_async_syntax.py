@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-three modules , namely asyncio, time, and random were imported
+two modules , namely asyncio and random were imported
 """
 import asyncio
-import time
 import random
 
 async def wait_random(max_delay=10):
@@ -18,6 +17,6 @@ async def wait_random(max_delay=10):
     Returns:
         float: the amount if time during which function was stopped 
     """
-    start = time.perf_counter()
-    await asyncio.sleep(random.uniform(0, max_delay))
-    return (time.perf_counter() - start)
+    delay = random.uniform(0, max_delay)
+    await asyncio.sleep(delay)
+    return (delay)
