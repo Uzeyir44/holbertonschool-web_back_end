@@ -5,7 +5,7 @@ two modules , namely asyncio and random were imported
 import asyncio
 import random
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay: int =10) -> float:
     """
     This function stops execution for a certain period of time
     and then returns this value
