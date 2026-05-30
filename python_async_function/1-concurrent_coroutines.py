@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Imported asyncio, random, and typing libraries   
+Imported asyncio, random, and typing libraries
 """
 import asyncio
 from typing import List
 
 
 wait_random = __import__('0-basic_async_syntax').wait_random
+
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
     """
