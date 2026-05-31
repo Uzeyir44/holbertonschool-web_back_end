@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Imported ascyncio and random modules 
-and also AsyncGenerator for annotation
+Imported ascyncio and random modules
+and also Generator for annotation
 """
 import asyncio
 import random
-from typing import AsyncGenerator
+from typing import Generator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     This function is an asynchronous generator
     that yileds one number per second
