@@ -60,4 +60,3 @@ class Server:
         }
 
         return res_dict
-    
