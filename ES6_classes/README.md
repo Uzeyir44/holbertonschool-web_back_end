@@ -74,3 +74,24 @@ floors (Number)
 Each attribute must be stored in an "underscore" attribute version (ex: name is stored in _name)
 Implement a getter for each attribute.
 Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER_OF_FLOORS floors.
+
+###7-airport.js
+
+Implement a class named Airport:
+
+Constructor attributes:
+name (String)
+code (String)
+Each attribute must be stored in an "underscore" attribute version (ex: name is stored in _name)
+The default string description of the class should return the airport code (example below).
+
+###8-hbtn_class.js
+
+Implement a class named HolbertonClass:
+
+Constructor attributes:
+size (Number)
+location (String)
+Each attribute must be stored in an "underscore" attribute version (ex: name is stored in _name)
+When the class is cast into a Number, it should return the size.
+When the class is cast into a String, it should return the location.
