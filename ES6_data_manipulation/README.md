@@ -29,3 +29,11 @@ Create a function getStudentsByLocation that returns an array of objects who are
 It should accept a list of students (from getListStudents) and a city (string) as parameters.
 
 You must use the filter function on the array.
+
+###3-get_ids_sum.js
+
+Create a function getStudentIdsSum that returns the sum of all the student ids.
+
+It should accept a list of students (from getListStudents) as a parameter.
+
+You must use the reduce function on the array.
