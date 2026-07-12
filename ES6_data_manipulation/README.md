@@ -37,3 +37,19 @@ Create a function getStudentIdsSum that returns the sum of all the student ids.
 It should accept a list of students (from getListStudents) as a parameter.
 
 You must use the reduce function on the array.
+
+###4-update_grade_by_city.js
+
+Create a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade
+
+It should accept a list of students (from getListStudents), a city (String), and newGrades (Array of "grade" objects) as parameters.
+
+newGrades is an array of objects with this format:
+
+  {
+    studentId: 31,
+    grade: 78,
+  }
+If a student doesn't have grade in newGrades, the final grade should be N/A.
+
+You must use filter and map combined.
